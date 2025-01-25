@@ -9,10 +9,8 @@ int main() {
 
 int power(int m, int n) {
    int p;
-
    for(int i = 0; i <= n; ++n) {
      p = p * m;
    }
-   
    return p;
 }
