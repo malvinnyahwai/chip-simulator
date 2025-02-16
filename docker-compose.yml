@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ubuntu-container:
+    build:
+      context: .
+    container_name: ubuntu-container
+    ports:
+      - "2222:22"
+    restart: always
