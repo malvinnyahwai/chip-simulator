@@ -8,3 +8,5 @@ services:
     ports:
       - "2222:22"
     restart: always
+    volumes:
+      - ./persistent-data:/workspace/documents
